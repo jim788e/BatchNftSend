@@ -1,0 +1,19 @@
+[profile.default]
+src = "contracts"
+out = "out"
+test = "tests"
+libs = ["lib"]
+remappings = [
+    "hardhat/=lib/forge-std/src/",
+    "@openzeppelin/=lib/openzeppelin-contracts/"
+]
+
+# Sei Network configurations
+[rpc_endpoints]
+sei_mainnet = "https://evm-rpc.sei-apis.com"
+sei_testnet = "https://evm-rpc-testnet.sei-apis.com"
+
+[etherscan]
+sei_mainnet = { key = "${ETHERSCAN_API_KEY}", url = "https://seitrace.com/pacific-1" }
+sei_testnet = { key = "${ETHERSCAN_API_KEY}", url = "https://seitrace.com/atlantic-2" }
+

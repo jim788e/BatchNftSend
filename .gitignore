@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Foundry build artifacts
+cache/
+out/
+
+# Broadcast files (contain transaction data)
+broadcast/
+
+# Node modules (if any)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+*.lock
+
+# Coverage
+lcov.info
+coverage/
