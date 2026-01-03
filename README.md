@@ -67,8 +67,8 @@
 ### Clone the Repository
 
 ```powershell
-git clone https://github.com/jim788e/BatchNftSemd.git
-cd BatchNftSemd
+git clone https://github.com/jim788e/BatchNftSend.git
+cd BatchNftSend
 ```
 
 ### Install Dependencies
@@ -209,7 +209,7 @@ cast send <CONTRACT_ADDRESS> "multiSendNfts(address[],uint256[],address,uint256)
 ## 📁 Project Structure
 
 ```
-BatchNftSemd/
+BatchNftSend/
 ├── contracts/
 │   └── BatchNftSend.sol      # Main contract
 ├── script/
